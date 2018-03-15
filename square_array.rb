@@ -6,6 +6,6 @@ def square_array(array)
   # end
   # return sqdArray
 
-  array.collect {|x| x*x}
+  array.collect!{|x| x*x}
 
 end
